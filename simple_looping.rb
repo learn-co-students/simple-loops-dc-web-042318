@@ -1,4 +1,3 @@
-# REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
@@ -21,6 +20,7 @@ def while_iterator(number_of_times)
 end
 end
 
+
 def until_iterator(number_of_times)
   counter = 0
   phrase = "Welcome to Flatiron School's Web Development Course!"
@@ -30,9 +30,10 @@ number_of_times += 1
 end
 end
 
-def for_iterator(1..number_of_times)
+
+def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  for instance in number_of_times
+  for instance in 1..number_of_times do
   puts phrase
 end
 end
